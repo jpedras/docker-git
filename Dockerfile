@@ -4,5 +4,6 @@ RUN apk update
 
 RUN apk update && apk add \
     git  \
+    openssh-client  \
     bash
 
